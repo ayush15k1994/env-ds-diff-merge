@@ -1,0 +1,17 @@
+{
+  "name": "cart_add",
+  "id": "-1",
+  "type": 2,
+  "content": {
+    "accessors": [
+      {
+        "id": "acc_button_add",
+        "name": "Button Add",
+        "accessor": "_button(\"Add\")",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

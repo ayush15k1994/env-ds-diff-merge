@@ -1,0 +1,90 @@
+{
+  "name": "flow1",
+  "id": "-1",
+  "type": 0,
+  "content": {
+    "nodesMap": {
+      "fcn_start_0": {
+        "id": "fcn_start_0",
+        "content": "Start",
+        "nodeType": "start",
+        "branches": [
+          "fcn_addbooksandverifytotal_0"
+        ]
+      },
+      "fcn_addbooksandverifytotal_0": {
+        "id": "fcn_addbooksandverifytotal_0",
+        "content": "Add Books and Verify Total",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_login_0"
+        ]
+      },
+      "fcn_login_0": {
+        "id": "fcn_login_0",
+        "content": "@login",
+        "nodeType": "action",
+        "branches": [
+          "fcn_addbookstocartandverifytotal_0"
+        ]
+      },
+      "fcn_addbookstocartandverifytotal_0": {
+        "id": "fcn_addbookstocartandverifytotal_0",
+        "content": "Add Books to $cart and verify total",
+        "nodeType": "action",
+        "branches": [
+          "fcn_logout_0"
+        ],
+        "dataSet": {
+          "dataSetName": "cart.csv",
+          "dataSetGroupName": "$data1"
+        }
+      },
+      "fcn_logout_0": {
+        "id": "fcn_logout_0",
+        "content": "Logout",
+        "nodeType": "action",
+        "branches": []
+      }
+    },
+    "positions": {
+      "fcn_start_0": {
+        "top": 150.0,
+        "left": 500.0
+      },
+      "fcn_addbooksandverifytotal_0": {
+        "top": 211.0,
+        "left": 500.0
+      },
+      "fcn_login_0": {
+        "top": 270.0,
+        "left": 500.0
+      },
+      "fcn_addbookstocartandverifytotal_0": {
+        "top": 328.0,
+        "left": 500.0
+      },
+      "fcn_logout_0": {
+        "top": 394.1562,
+        "left": 500.0
+      }
+    },
+    "isPrimary": true,
+    "pathNames": [
+      {
+        "pathKey": [
+          "fcn_addbooksandverifytotal_0",
+          "fcn_login_0",
+          "fcn_addbookstocartandverifytotal_0",
+          "fcn_logout_0"
+        ],
+        "dependsPathUID": "17387737428970",
+        "isValidationsEnabled": false
+      }
+    ],
+    "flowChartUID": "fcUID_flow1_0",
+    "pathExecutionOrder": []
+  },
+  "enabled": true,
+  "parentId": ""
+}
