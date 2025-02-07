@@ -10,7 +10,7 @@
           {
             "id": "acc_textbox_q",
             "name": "Java Input",
-            "accessor": "_textbox(\"q\")",
+            "accessor": "_textbox(\"q-java\")",
             "messageAccessor": ""
           }
         ],
@@ -28,7 +28,7 @@
           {
             "id": "acc_textbox_q1",
             "name": "Ruby Input",
-            "accessor": "_textbox(\"q[1]\")",
+            "accessor": "_textbox(\"q-ruby\")",
             "messageAccessor": ""
           }
         ],
@@ -46,7 +46,7 @@
           {
             "id": "acc_textbox_q2",
             "name": "Python Input",
-            "accessor": "_textbox(\"q[2]\")",
+            "accessor": "_textbox(\"q-python\")",
             "messageAccessor": ""
           }
         ],

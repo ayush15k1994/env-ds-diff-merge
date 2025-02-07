@@ -6,7 +6,7 @@
     "accessors": [
       {
         "id": "acc_button_add",
-        "name": "Button Add",
+        "name": "Button Cart Add",
         "accessor": "_button(\"Add\")",
         "specific": []
       }
