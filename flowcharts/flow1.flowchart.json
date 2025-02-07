@@ -37,7 +37,7 @@
         ],
         "dataSet": {
           "dataSetName": "cart.csv",
-          "dataSetGroupName": "$data1"
+          "dataSetGroupName": "$data2"
         }
       },
       "fcn_logout_0": {
