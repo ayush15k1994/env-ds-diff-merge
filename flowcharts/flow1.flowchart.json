@@ -42,7 +42,7 @@
       },
       "fcn_logout_0": {
         "id": "fcn_logout_0",
-        "content": "Logout $cart",
+        "content": "Logout $cart and something else",
         "nodeType": "action",
         "branches": []
       }

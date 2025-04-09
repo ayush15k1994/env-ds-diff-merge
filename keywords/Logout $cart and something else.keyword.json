@@ -1,10 +1,10 @@
 {
-  "name": "Logout $cart",
-  "id": "0",
+  "name": "Logout $cart and something else",
+  "id": "-1",
   "type": 3,
   "content": {
     "isSystemKeyword": false,
-    "title": "Logout $cart",
+    "title": "Logout $cart and something else",
     "specific": [],
     "parameters": [
       {

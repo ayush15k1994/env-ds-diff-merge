@@ -37,12 +37,12 @@
         ],
         "dataSet": {
           "dataSetName": "cart.csv",
-          "dataSetGroupName": "group1"
+          "dataSetGroupName": "default"
         }
       },
       "fcn_logout_0": {
         "id": "fcn_logout_0",
-        "content": "Logout $cart",
+        "content": "Logout $cart and something else",
         "nodeType": "action",
         "branches": []
       }
@@ -62,7 +62,7 @@
       },
       "fcn_addbookstocartandverifytotal_0": {
         "top": 328.0,
-        "left": 501.0
+        "left": 500.0
       },
       "fcn_logout_0": {
         "top": 395.140625,
