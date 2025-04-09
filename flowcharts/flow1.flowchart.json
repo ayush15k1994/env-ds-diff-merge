@@ -37,12 +37,12 @@
         ],
         "dataSet": {
           "dataSetName": "cart.csv",
-          "dataSetGroupName": "default"
+          "dataSetGroupName": "group1"
         }
       },
       "fcn_logout_0": {
         "id": "fcn_logout_0",
-        "content": "Logout",
+        "content": "Logout $cart",
         "nodeType": "action",
         "branches": []
       }
@@ -62,10 +62,10 @@
       },
       "fcn_addbookstocartandverifytotal_0": {
         "top": 328.0,
-        "left": 500.0
+        "left": 501.0
       },
       "fcn_logout_0": {
-        "top": 394.1562,
+        "top": 395.140625,
         "left": 500.0
       }
     },
@@ -79,6 +79,10 @@
           "fcn_logout_0"
         ],
         "dependsPathUID": "17387737428970",
+        "dataSet": {
+          "dataSetName": "cart.csv",
+          "dataSetGroupName": "group1"
+        },
         "isValidationsEnabled": false
       }
     ],
