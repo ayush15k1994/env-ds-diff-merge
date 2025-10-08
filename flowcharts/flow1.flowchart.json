@@ -75,8 +75,16 @@
         "id": "fcn_disablednode_0",
         "content": "Disabled Node $cart",
         "nodeType": "action",
-        "branches": [],
-        "disabled": true
+        "branches": [
+          "fcn_fullkeywordoverride_0"
+        ],
+        "disabled": false
+      },
+      "fcn_fullkeywordoverride_0": {
+        "id": "fcn_fullkeywordoverride_0",
+        "content": "Full Keyword Override",
+        "nodeType": "action",
+        "branches": []
       }
     },
     "positions": {
@@ -115,6 +123,10 @@
       "fcn_disablednode_0": {
         "top": 410.0,
         "left": 970.0
+      },
+      "fcn_fullkeywordoverride_0": {
+        "top": 482.1562,
+        "left": 970.0
       }
     },
     "isPrimary": true,
@@ -138,7 +150,8 @@
           "fcn_keywordconflicts_0",
           "fcn_keyword1_0",
           "fcn_keyword2_0",
-          "fcn_disablednode_0"
+          "fcn_disablednode_0",
+          "fcn_fullkeywordoverride_0"
         ],
         "dependsPathUID": "17599191309261",
         "isValidationsEnabled": false,

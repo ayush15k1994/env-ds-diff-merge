@@ -1,0 +1,50 @@
+{
+  "name": "Full Keyword Override",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Full Keyword Override",
+    "specific": [
+      {
+        "filterId": "fltUID_override1_true_override2_false_0",
+        "overrides": {
+          "steps": [
+            {
+              "commented": false,
+              "action": "_click",
+              "stepParameters": [
+                {
+                  "paramMode": "code",
+                  "customValue": "_button(\"nav-header\")"
+                }
+              ],
+              "stepCategory": "inbuilt",
+              "stepType": "Action",
+              "specific": []
+            }
+          ]
+        },
+        "enabled": true
+      }
+    ],
+    "parameters": [],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_log",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "Default Combo"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}
