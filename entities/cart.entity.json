@@ -20,7 +20,35 @@
           "max": "1"
         },
         "invalidData": [],
-        "validData": []
+        "validData": [],
+        "specific": [
+          {
+            "filterId": "fltUID_override1_true_override2_true_0",
+            "overrides": {
+              "accessors": [
+                {
+                  "id": "acc_textbox_q",
+                  "name": "Java Input",
+                  "accessor": "_textbox(\"q-java-override\")",
+                  "messageAccessor": "_textbox(\"q-java-error-override\")"
+                }
+              ]
+            }
+          },
+          {
+            "filterId": "fltUID_override1_true_override2_false_0",
+            "overrides": {
+              "accessors": [
+                {
+                  "id": "acc_textbox_q",
+                  "name": "Java Input",
+                  "accessor": "_textbox(\"q-java-override2\")",
+                  "messageAccessor": ""
+                }
+              ]
+            }
+          }
+        ]
       },
       "attr_ruby_1": {
         "name": "ruby",
@@ -56,7 +84,35 @@
           "max": "3"
         },
         "invalidData": [],
-        "validData": []
+        "validData": [],
+        "specific": [
+          {
+            "filterId": "fltUID_override1_true_override2_true_0",
+            "overrides": {
+              "accessors": [
+                {
+                  "id": "acc_textbox_q2",
+                  "name": "Python Input",
+                  "accessor": "_textbox(\"q-python-override\")",
+                  "messageAccessor": ""
+                }
+              ]
+            }
+          },
+          {
+            "filterId": "fltUID_override1_true_override2_false_0",
+            "overrides": {
+              "accessors": [
+                {
+                  "id": "acc_textbox_q2",
+                  "name": "Python Input",
+                  "accessor": "_textbox(\"q-python-override2\")",
+                  "messageAccessor": "_textbox(\"q-python-err-override2\")"
+                }
+              ]
+            }
+          }
+        ]
       },
       "attr_total_3": {
         "name": "total",
