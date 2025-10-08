@@ -1,0 +1,28 @@
+{
+  "name": "onFCFail",
+  "id": "-1",
+  "type": 5,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "onFCFail",
+    "specific": [],
+    "parameters": [],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_log",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "On FlowChart Fail"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

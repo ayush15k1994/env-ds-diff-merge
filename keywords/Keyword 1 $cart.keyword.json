@@ -1,0 +1,192 @@
+{
+  "name": "Keyword 1 $cart",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Keyword 1 $cart",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "cart_",
+        "entityTypeId": "cart",
+        "suffix": ""
+      }
+    ],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_navigateTo",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "https://sahitest.com/demo/training"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": [
+          {
+            "filterId": "fltUID_override1_true_override2_true_0",
+            "overrides": {
+              "step": {
+                "commented": false,
+                "action": "_navigateTo",
+                "stepParameters": [
+                  {
+                    "paramMode": "string",
+                    "customValue": "https://sahitest.com/demo/training/22349283"
+                  }
+                ],
+                "stepCategory": "inbuilt",
+                "stepType": "Action",
+                "specific": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_cell(1)"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": [
+          {
+            "filterId": "fltUID_override1_true_override2_false_0",
+            "overrides": {
+              "step": {
+                "commented": false,
+                "action": "_click",
+                "stepParameters": [
+                  {
+                    "paramMode": "code",
+                    "customValue": "_cell(\"bachlapp-1\")"
+                  }
+                ],
+                "stepCategory": "inbuilt",
+                "stepType": "Action",
+                "specific": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_textbox(\"user\")"
+          },
+          {
+            "paramMode": "string",
+            "customValue": "test"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setPassword",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_password(\"password\")"
+          },
+          {
+            "paramMode": "string",
+            "customValue": "secret"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": [
+          {
+            "filterId": "fltUID_override1_true_override2_false_0",
+            "overrides": {
+              "step": {
+                "commented": false,
+                "action": "_setPassword",
+                "stepParameters": [
+                  {
+                    "paramMode": "code",
+                    "customValue": "_password(\"lachlacxp-password\")"
+                  },
+                  {
+                    "paramMode": "string",
+                    "customValue": "secret"
+                  }
+                ],
+                "stepCategory": "inbuilt",
+                "stepType": "Action",
+                "specific": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_submit(\"Login\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": [
+          {
+            "filterId": "fltUID_override1_true_override2_false_0",
+            "overrides": {
+              "step": {
+                "commented": false,
+                "action": "_click",
+                "stepParameters": [
+                  {
+                    "paramMode": "code",
+                    "customValue": "_submit(\"Login_override\")"
+                  }
+                ],
+                "stepCategory": "inbuilt",
+                "stepType": "Action",
+                "specific": []
+              }
+            }
+          },
+          {
+            "filterId": "fltUID_override1_true_override2_true_0",
+            "overrides": {
+              "step": {
+                "commented": false,
+                "action": "_click",
+                "stepParameters": [
+                  {
+                    "paramMode": "code",
+                    "customValue": "_button(\"Login\")"
+                  }
+                ],
+                "stepCategory": "inbuilt",
+                "stepType": "Action",
+                "specific": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

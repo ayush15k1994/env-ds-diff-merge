@@ -9,7 +9,8 @@
         "content": "Start",
         "nodeType": "start",
         "branches": [
-          "fcn_addbooksandverifytotal_0"
+          "fcn_addbooksandverifytotal_0",
+          "fcn_keywordconflicts_0"
         ]
       },
       "fcn_addbooksandverifytotal_0": {
@@ -45,6 +46,37 @@
         "content": "Logout $cart and something else",
         "nodeType": "action",
         "branches": []
+      },
+      "fcn_keywordconflicts_0": {
+        "id": "fcn_keywordconflicts_0",
+        "content": "Keyword Conflicts",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_keyword1_0"
+        ]
+      },
+      "fcn_keyword1_0": {
+        "id": "fcn_keyword1_0",
+        "content": "Keyword 1 $cart",
+        "nodeType": "action",
+        "branches": [
+          "fcn_keyword2_0"
+        ]
+      },
+      "fcn_keyword2_0": {
+        "id": "fcn_keyword2_0",
+        "content": "Keyword 2 $cart",
+        "nodeType": "action",
+        "branches": [
+          "fcn_disablednode_0"
+        ]
+      },
+      "fcn_disablednode_0": {
+        "id": "fcn_disablednode_0",
+        "content": "Disabled Node $cart",
+        "nodeType": "action",
+        "branches": [],
+        "disabled": true
       }
     },
     "positions": {
@@ -67,6 +99,22 @@
       "fcn_logout_0": {
         "top": 395.140625,
         "left": 500.0
+      },
+      "fcn_keywordconflicts_0": {
+        "top": 212.0,
+        "left": 970.0
+      },
+      "fcn_keyword1_0": {
+        "top": 278.0,
+        "left": 970.0
+      },
+      "fcn_keyword2_0": {
+        "top": 344.0,
+        "left": 970.0
+      },
+      "fcn_disablednode_0": {
+        "top": 410.0,
+        "left": 970.0
       }
     },
     "isPrimary": true,
@@ -84,10 +132,48 @@
           "dataSetGroupName": "group1"
         },
         "isValidationsEnabled": false
+      },
+      {
+        "pathKey": [
+          "fcn_keywordconflicts_0",
+          "fcn_keyword1_0",
+          "fcn_keyword2_0",
+          "fcn_disablednode_0"
+        ],
+        "dependsPathUID": "17599191309261",
+        "isValidationsEnabled": false,
+        "callbacks": {
+          "onScriptFailure": {
+            "callbackFunction": "onScriptFailure",
+            "callbackKeyword": "onPathFail"
+          },
+          "onScriptError": {
+            "callbackFunction": "onScriptError",
+            "callbackKeyword": "onPathErr"
+          },
+          "onScriptEnd": {
+            "callbackFunction": "onScriptEnd",
+            "callbackKeyword": "onPathEnd"
+          }
+        }
       }
     ],
     "flowChartUID": "fcUID_flow1_0",
-    "pathExecutionOrder": []
+    "pathExecutionOrder": [],
+    "callbacks": {
+      "onScriptFailure": {
+        "callbackFunction": "onScriptFailure",
+        "callbackKeyword": "onFCFail"
+      },
+      "onScriptError": {
+        "callbackFunction": "onScriptError",
+        "callbackKeyword": "onFCErr"
+      },
+      "onScriptEnd": {
+        "callbackFunction": "onScriptEnd",
+        "callbackKeyword": "onFCEnd"
+      }
+    }
   },
   "enabled": true,
   "parentId": ""

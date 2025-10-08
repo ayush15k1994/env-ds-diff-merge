@@ -24,6 +24,20 @@
     },
     "isCustomFunctionsFromScriptsDir": false,
     "projectSuiteInfo": [],
-    "flowchartsAndExternalDdcsvInfo": {}
+    "flowchartsAndExternalDdcsvInfo": {},
+    "callbacks": {
+      "onScriptEnd": {
+        "callbackFunction": "onScriptEnd",
+        "callbackKeyword": "onProjEnd"
+      },
+      "onScriptFailure": {
+        "callbackFunction": "onScriptFailure",
+        "callbackKeyword": "onProjFail"
+      },
+      "onScriptError": {
+        "callbackFunction": "onScriptError",
+        "callbackKeyword": "onProjErr"
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "name": "onPathErr",
+  "id": "-1",
+  "type": 5,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "onPathErr",
+    "specific": [],
+    "parameters": [],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_log",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "On Path Error"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

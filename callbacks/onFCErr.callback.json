@@ -1,0 +1,28 @@
+{
+  "name": "onFCErr",
+  "id": "-1",
+  "type": 5,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "onFCErr",
+    "specific": [],
+    "parameters": [],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_log",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "On FlowChart Error"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

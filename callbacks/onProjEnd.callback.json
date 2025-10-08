@@ -1,0 +1,28 @@
+{
+  "name": "onProjEnd",
+  "id": "-1",
+  "type": 5,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "onProjEnd",
+    "specific": [],
+    "parameters": [],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_log",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "On Project End"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

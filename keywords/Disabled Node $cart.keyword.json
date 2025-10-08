@@ -1,0 +1,84 @@
+{
+  "name": "Disabled Node $cart",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Disabled Node $cart",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "cart_",
+        "entityTypeId": "cart",
+        "suffix": ""
+      }
+    ],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_button(\"Clear\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": [
+          {
+            "filterId": "fltUID_override1_true_override2_false_0",
+            "overrides": {
+              "step": {
+                "commented": false,
+                "action": "_click",
+                "stepParameters": [
+                  {
+                    "paramMode": "code",
+                    "customValue": "_submit(\"Clear\")"
+                  }
+                ],
+                "stepCategory": "inbuilt",
+                "stepType": "Action",
+                "specific": []
+              }
+            }
+          },
+          {
+            "filterId": "fltUID_override1_true_override2_true_0",
+            "overrides": {
+              "step": {
+                "commented": false,
+                "action": "_click",
+                "stepParameters": [
+                  {
+                    "paramMode": "code",
+                    "customValue": "_link(\"Clear\")"
+                  }
+                ],
+                "stepCategory": "inbuilt",
+                "stepType": "Action",
+                "specific": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_button(\"Logout\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}
