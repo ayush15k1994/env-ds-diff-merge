@@ -1,0 +1,49 @@
+{
+  "name": "custom",
+  "id": "-1",
+  "type": 2,
+  "content": {
+    "accessors": [
+      {
+        "id": "acc_button_custom1",
+        "name": "Custom 1",
+        "accessor": "_button(\"custom1\")",
+        "specific": [
+          {
+            "filterId": "fltUID_override1_true_override2_false_0",
+            "overrides": {
+              "id": "acc_button_custom1",
+              "name": "Custom 1",
+              "accessor": "_button(\"custom1-tfx\")"
+            }
+          },
+          {
+            "filterId": "fltUID_override1_true_override2_true_0",
+            "overrides": {
+              "id": "acc_button_custom1",
+              "name": "Custom 1",
+              "accessor": "_button(\"custom1-ttx\")"
+            }
+          }
+        ]
+      },
+      {
+        "id": "acc_button_custom2",
+        "name": "Custom 2",
+        "accessor": "_button(\"custom2\")",
+        "specific": [
+          {
+            "filterId": "fltUID_override1_true_override2_true_0",
+            "overrides": {
+              "id": "acc_button_custom2",
+              "name": "Custom 2",
+              "accessor": "_button(\"custom2-ttx\")"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

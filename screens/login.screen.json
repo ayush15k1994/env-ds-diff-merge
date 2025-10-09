@@ -1,0 +1,17 @@
+{
+  "name": "login",
+  "id": "-1",
+  "type": 2,
+  "content": {
+    "accessors": [
+      {
+        "id": "acc_submit_login",
+        "name": "Submit Login",
+        "accessor": "_submit(\"login\")",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

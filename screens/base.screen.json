@@ -1,0 +1,23 @@
+{
+  "name": "base",
+  "id": "-1",
+  "type": 2,
+  "content": {
+    "accessors": [
+      {
+        "id": "acc_button_base_elem1",
+        "name": "Base Element 1",
+        "accessor": "_button(\"base_elem1\")",
+        "specific": []
+      },
+      {
+        "id": "acc_button_base_elem2",
+        "name": "Base Element 2",
+        "accessor": "_button(\"base_elem2\")",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}
